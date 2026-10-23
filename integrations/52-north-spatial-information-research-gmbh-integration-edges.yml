@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/52-north-spatial-information-research-gmbh/integrations
+- https://n8n.io/integrations/52-north-spatial-information-research-gmbh/
+- https://composio.dev/toolkits/52-north-spatial-information-research-gmbh
+- https://monid.ai/tools/52-north-spatial-information-research-gmbh
+checked:
+- https://composio.dev/toolkits/52-north-spatial-information-research-gmbh
+- https://monid.ai/tools/52-north-spatial-information-research-gmbh
+- https://n8n.io/integrations/52-north-spatial-information-research-gmbh/
+- https://zapier.com/apps/52-north-spatial-information-research-gmbh/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

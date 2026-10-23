@@ -1,0 +1,22 @@
+generated: '2026-10-23'
+method: searched
+source: https://github.com/52North
+packages:
+  - name: SensorWebClient
+    registry: github
+    url: https://github.com/52North/SensorWebClient
+    official: true
+    version: null
+    note: "Repository exists but no release version found"
+  - name: OX-Framework
+    registry: github
+    url: https://github.com/52North/OX-Framework
+    official: true
+    version: null
+    note: "No tagged releases; latest commit used"
+  - name: ilwis-core
+    registry: github
+    url: https://github.com/52North/IlwisCore
+    official: true
+    version: null
+    note: "No release metadata"

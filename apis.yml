@@ -1,23 +1,76 @@
 aid: 52-north-spatial-information-research-gmbh
+
 name: 52°North Spatial Information Research GmbH
-description: '52°North Spatial Information Research GmbH is a company surfaced via the API Evangelist
-  harvest backlog (source: vc-portfolio) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://52north.org/wp-content/uploads/2025/05/Logo_52NorthClaim.png
+
+description: '52°North Spatial Information Research GmbH is a small private research organization developing new concepts, technologies and innovative applications for geo‑information infrastructures. It focuses on open standards, interoperable services, and advanced geospatial data processing, supporting a wide range of public and private sector projects worldwide.'
+
 url: https://raw.githubusercontent.com/api-evangelist/52-north-spatial-information-research-gmbh/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- Geospatial
+- Research
+- Open-Standards
+- Data-Processing
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/52-north-spatial-information-research-gmbh-hosts.yml
+- type: SDKs
+  url: packages/52-north-spatial-information-research-gmbh-packages.yml
+- type: Packages
+  url: packages/52-north-spatial-information-research-gmbh-packages.yml
+- type: TermsOfService
+  url: https://52north.org/about-us/contact-us/legal-notice/
+- type: Security
+  url: https://blog.52north.org/category/communities/security/
+- type: PrivacyPolicy
+  url: https://52north.org/privacy-statement/
+- type: Newsroom
+  url: https://52north.org/news/
+- type: GitHubOrganization
+  url: https://github.com/52North
+- type: Blog
+  url: https://blog.52north.org/
+- type: DomainSecurity
+  url: security/52-north-spatial-information-research-gmbh-domain-security.yml
 - type: Website
   url: http://www.52north.org
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The main website renders content via JavaScript and provides no machine‑readable API specification.
+  evidence:
+    - url: https://52north.org/
+      status: 200
+  checked: '2026-10-23'
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
